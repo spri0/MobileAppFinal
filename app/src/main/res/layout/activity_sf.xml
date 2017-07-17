@@ -4,11 +4,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
     android:background="@drawable/ryu"
-    tools:context="edu.gsu.httpcs.mobileappfinal.SFActivity">
+    tools:context="edu.gsu.httpcs.mobileappfinal.SFActivity"
+    android:weightSum="1">
+
+    <Button
+        android:id="@+id/buttonRy"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Ryu" />
+
+    <Button
+        android:id="@+id/buttonKe"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:text="Ken" />
+
+    <Button
+        android:id="@+id/buttonCh"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Chun-Li" />
+
+    <Button
+        android:id="@+id/buttonDh"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:text="Dhalsim" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/blanka" />
 
 </LinearLayout>

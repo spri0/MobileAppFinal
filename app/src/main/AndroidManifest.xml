@@ -16,13 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Fragments.BoardFragment" />
         <activity
             android:name=".SFActivity"
             android:label="@string/title_activity_sf"
             android:theme="@style/AppTheme" />
         <activity android:name=".MarvelActivity" />
-        <activity android:name=".InfoActivity"></activity>
+        <activity android:name=".InfoActivity" />
+
+        <service android:name=".theService" />
+
+        <activity android:name=".CharActivity"></activity>
     </application>
 
 </manifest>

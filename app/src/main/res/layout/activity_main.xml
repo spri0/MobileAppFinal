@@ -7,6 +7,7 @@
     android:orientation="vertical"
     android:padding="30dp"
     tools:context="edu.gsu.httpcs.mobileappfinal.MainActivity">
+        />
 
     <TextView
         android:id="@+id/textview"
@@ -64,6 +65,32 @@
 
     </RadioGroup>
 
+    <LinearLayout
+        android:layout_width="163dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
 
+        <Button
+            android:id="@+id/stabutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/stobutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Stop" />
+
+        <ImageButton
+            android:id="@+id/sakbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sakura" />
+
+    </LinearLayout>
 
 </LinearLayout>

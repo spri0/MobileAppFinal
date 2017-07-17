@@ -4,11 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
     android:background="@drawable/wolv"
     tools:context="edu.gsu.httpcs.mobileappfinal.MarvelActivity">
+
+    <Button
+        android:id="@+id/buttonWo"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Wolverine" />
+
+    <Button
+        android:id="@+id/buttonCy"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="Cyclops" />
+
+    <Button
+        android:id="@+id/buttonSp"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:text="Spiderman" />
+
+    <Button
+        android:id="@+id/buttonJu"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:text="Juggernaut" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:scaleType="matrix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="didTapButton"
+        app:srcCompat="@drawable/iron" />
+
 
 </LinearLayout>
